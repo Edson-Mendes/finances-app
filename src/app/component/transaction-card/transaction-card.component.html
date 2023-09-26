@@ -1,9 +1,11 @@
 <div class="container">
   <div class="card">
-    <mat-icon class="card__transaction-icon">arrow_circle_up</mat-icon>
+    <mat-icon class="card__transaction-icon" [ngClass]="transactionType">{{
+      transactionType === "income" ? "arrow_circle_up" : "arrow_circle_down"
+    }}</mat-icon>
     <div class="card__transaction-info">
-      <div class="transaction-info__name">Loteria</div>
-      <div class="transaction-info__value">R$ 150.00</div>
+      <div class="transaction-info__name">{{ transactionName }}</div>
+      <div class="transaction-info__value">{{ transactionValue }}</div>
     </div>
     <mat-icon class="card__details-icon">navigate_next</mat-icon>
   </div>

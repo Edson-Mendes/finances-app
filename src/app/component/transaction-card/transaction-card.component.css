@@ -47,3 +47,11 @@
   font-weight: 500;
   color: black;
 }
+
+.income {
+  color: green;
+}
+
+.expense {
+  color: red;
+}
