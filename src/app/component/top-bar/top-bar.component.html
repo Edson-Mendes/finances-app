@@ -1,0 +1,17 @@
+<div class="top-bar">
+  <mat-icon class="top-bar__logo">account_balance_wallet</mat-icon>
+  <div class="top-bar__menu">
+    <a 
+      class="menu__item" 
+      [routerLink]="['/home']" 
+      [routerLinkActive]="'active'"
+      >Home</a>
+    <a
+      class="menu__item"
+      [routerLink]="['/transactions']"
+      [routerLinkActive]="'active'"
+      >Transactions
+    </a>
+  </div>
+  <mat-icon class="top-bar__profile-icon">account_circle</mat-icon>
+</div>
