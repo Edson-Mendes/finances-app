@@ -8,9 +8,10 @@ import { TransactionCardComponent } from './component/transaction-card/transacti
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { TopBarComponent } from './component/top-bar/top-bar.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, TransactionsComponent, TransactionCardComponent, TopBarComponent],
+  declarations: [AppComponent, TransactionsComponent, TransactionCardComponent, TopBarComponent, FooterComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

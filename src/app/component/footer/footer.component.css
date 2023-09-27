@@ -1,0 +1,26 @@
+.footer {
+  margin-top: 20px;
+  background-color: azure;
+}
+
+.footer__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding: 10px 0px;
+}
+
+.list-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.list {
+  list-style: none;
+}
+
+.footer__bottom {
+  padding: 5px 0px;
+  text-align: center;
+}
